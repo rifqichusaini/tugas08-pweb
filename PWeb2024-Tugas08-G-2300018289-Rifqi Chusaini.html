@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Formulir</title>
+</head>
+<body>
+    <h1>Portal UAD</h1>
+    <form id="inputan" method="get">
+        <div id="nama" class="masukkan">
+            <div id="errnama"></div>
+            <input type="text" name="name" id="name" placeholder="Masukkan Nama Anda">
+        </div>
+        <br>
+        <div id="email" class="masukkan">
+            <div id="erremail"></div>
+            <br>
+            <input type="email" id="email" name="email" placeholder="Masukkan Email Anda">
+        </div>
+        <br>
+        <div id="password" class="masukkan">
+            <div id="errpassword"></div>
+            <br>
+            <input type="password" id="pass" name="password" placeholder="Masukkan Password Anda">
+        </div>
+        <br>
+        <div id="repassword" class="masukkan">
+            <div id="errrepassword"></div>
+            <br>
+            <input type="password" id="repass" name="repassword" placeholder="Tulis Ulang Password Anda">
+        </div>
+        <br>
+        <div id="confirm">
+            <button type="button" id="input">Input</button>
+            <button type="reset" id="reset">Reset</button>
+        </div>
+    </form>
+
+    <script src="scripts.js"></script>
+</body>
+</html>

@@ -1,0 +1,60 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to right, #ffecd2, #fcb69f);
+}
+.error {
+    text-align: center;
+    color: red;
+    margin: 0;
+}
+h1 {
+    text-align: center;
+    color: #333;
+}
+#inputan {
+    border-radius: 10px;
+    padding: 20px;
+    width: 400px;
+    background-color: #fff5e6;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+input {
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+.masukkan {
+    width: 100%;
+}
+#confirm {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0 20px;
+}
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #ff7e67;
+    color: white;
+    font-weight: bold;
+}
+button#reset {
+    background-color: #ff4d4d;
+}
