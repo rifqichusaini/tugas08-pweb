@@ -23,6 +23,11 @@ document.getElementById('input').addEventListener('click', function() {
         errorElement.innerHTML = '<p class="error">Password harus memiliki setidaknya 8 karakter.</p>';
         isValid = false;
     }
+    if (pass === "password" || pass == 12345678) {
+        const errorElement = document.getElementById('errpassword');
+        errorElement.innerHTML = '<p class="error">Password terlalu lemah.</p>';
+        isValid = false;
+    }
     if (pass !== repass) {
         const errorElement = document.getElementById('errrepassword');
         errorElement.innerHTML = '<p class="error">Password dan konfirmasi password tidak cocok.</p>';
